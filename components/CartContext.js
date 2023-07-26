@@ -4,6 +4,6 @@ const CartContext = createContext({});
 
 export function CartContextProvider({children}){
     return (
-        <CartContext.Provider>{children}</CartContext.Provider>
+        <CartContext.Provider>{children}</CartContext.Provider> 
     );
 }
