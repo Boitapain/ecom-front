@@ -26,6 +26,17 @@ export const ButtonStyle = css`
         color:#fff;
         border: 1px solid #fff;
     `}
+    ${props => props.black && !props.outline && css`
+        background-color:#000;
+        color:#fff;
+        border: 1px solid #000;
+    `}
+    ${props => props.black && props.outline && css`
+        background-color:transparent;
+        color:#000;
+        border: 1px solid #000;
+    `}
+
     ${props => props.size === 'l' && css`
         font-size: 1.2rem;
         svg{
@@ -41,6 +52,9 @@ export const ButtonStyle = css`
         background-color: transparent;
         color: ${primary};
         border: 1px solid ${primary};
+    `}
+    ${props => props.block && css`
+        display:block;
     `}
 `;
 
