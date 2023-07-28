@@ -55,6 +55,7 @@ export const ButtonStyle = css`
     `}
     ${props => props.block && css`
         display:block;
+        width:100%;
     `}
 `;
 
