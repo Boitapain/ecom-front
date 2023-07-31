@@ -1,4 +1,4 @@
-This is a Next.js project using Styled-Components and MongoDB to make an e-commerce selling page.
+This is a Next.js project using Styled-Components and MongoDB to make an e-commerce selling page.<br/>
 This project was made to learn Next.js using an online tutorial : [Build a Fullstack E-commerce using Next.js ](https://www.youtube.com/watch?v=dTFXufTgfOE)
 > A big thanks to Dawid for providing this tutorial and explanations!
 
